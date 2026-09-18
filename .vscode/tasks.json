@@ -10,10 +10,10 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${workspaceFolder}/bin/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"
@@ -22,7 +22,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Hata Ayıklayıcısı tarafından oluşturulan görev."
+            "detail": "C/C++ clang derleme görevi."
         }
     ],
     "version": "2.0.0"
